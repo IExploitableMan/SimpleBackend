@@ -14,6 +14,6 @@ public class Application {
 
     @GetMapping("/")
     public String mainRoute() {
-        return "Works!";
+        return "<h1>Works!</h1>";
     }
 }
