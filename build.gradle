@@ -12,4 +12,5 @@ repositories {
 dependencies {
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.7.4'
     implementation group: 'org.springframework', name: 'spring-web', version: '5.3.23'
+    implementation 'org.json:json:20090211'
 }
