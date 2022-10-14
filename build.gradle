@@ -14,3 +14,6 @@ dependencies {
     implementation group: 'org.springframework', name: 'spring-web', version: '5.3.23'
     implementation 'org.json:json:20090211'
 }
+
+task stage(dependsOn: 'bootJar') {
+}
